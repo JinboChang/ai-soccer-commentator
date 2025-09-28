@@ -1,0 +1,34 @@
+# Repo setup: keep .env untracked; run `git init && git add . && git commit -m "Initial commit"` then add/push remote.
+
+# Environment & secrets
+.env
+.env.local
+.env.*
+!.env.example
+
+# Dependencies
+node_modules/
+
+# Build outputs
+dist/
+build/
+
+# Logs & coverage
+*.log
+coverage/
+
+# OS / tooling
+.DS_Store
+
+# Misc
+.tmp/
+__pycache__/
+*.py[cod]
+*.DS_Store
+streamlit-static/
+.vscode/
+*.mp3
+*.mp4
+/tmp/
+.DS_Store
+.idea/
