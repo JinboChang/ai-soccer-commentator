@@ -49,6 +49,13 @@ Set these in `.env` or your host environment:
 
 Generated audio/video live in temporary files and are cleaned up when the Streamlit session resets or you hit **Clear result**. Review the `PipelineResult.cleanup` helper if you integrate with longer-lived storage.
 
+## Demo for submission (not perfect at this moment)
+
+
+https://github.com/user-attachments/assets/0f46eb80-fe3f-41cd-bfb7-201672647a76
+
+
+
 ## Testing locally
 
 - Run `python -m compileall app.py src` to sanity-check syntax.
